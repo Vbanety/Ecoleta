@@ -1,0 +1,114 @@
+.page-login {
+    display: flex;
+}
+
+.main-icon {
+    width: 70vw;
+    height: 100vh;
+    background-color: #15C3D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin: auto;
+    width: 80%;
+}
+
+form legend > label{
+    margin: 20px auto;
+}
+
+.btn-enter {
+    display: flex;
+}
+
+fieldset .btn-enter input[type=submit] {
+    background: #37C77F;
+    color: #f5f8fa;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    border-radius: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    text-align: start;
+    color: #5c8599;
+    font-size: 32px;
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: left;
+    color: #8fa7b2;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.box-check-pass {
+    padding: 30px ;
+}
+
+form>label {
+    text-align: left;
+    color: #8fa7b2;
+    width: 100%;
+}
+
+.testing {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+
+.testing input[type=password] {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    background: #f5f8fa;
+    border: 1px solid #d3e2e5;
+    box-sizing: border-box;   
+}
+
+.testing input[type=text] {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    background: #f5f8fa;
+    border: 1px solid #d3e2e5;
+    box-sizing: border-box;    
+}
+
+.testing > i {
+    position: absolute;
+    right: 30px;
+    background: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.testing > i:hover {
+    opacity: 0.6;
+}
+

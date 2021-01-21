@@ -1,0 +1,96 @@
+.page-login {
+    display: flex;
+}
+
+.main-icon {
+    width: 70vw;
+    height: 100vh;
+    background-color: #15C3D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+form > input[type=submit] {
+    background: #37C77F;
+    color: #f5f8fa;
+}
+
+form {
+    margin: auto;
+    width: 80%;
+}
+
+.divHeader {
+    display: flex;
+    width: auto;
+    height: 20%;
+}
+
+.box-diraction {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    right: 40px;
+    top: 40px;
+    background-color: #d3e2e5;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+legend {
+    text-align: start;
+    color: #5c8599;
+    font-size: 32px;
+    line-height: 34px;
+}
+
+.box-check-pass {
+    padding: 30px ;
+}
+
+
+form > label {
+    text-align: left;
+    color: #8fa7b2;
+    width: 100%;
+    margin: 20px auto;
+    
+}
+
+.testing {
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+
+input[type=password] {
+    position: relative;
+    height: 70px;
+    margin: 10px auto;
+    background: #f5f8fa;
+    border: 1px solid #d3e2e5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    right: 60px;
+    display: flex;
+    border: none;
+    background-color: none;
+    cursor: pointer;
+}
+
